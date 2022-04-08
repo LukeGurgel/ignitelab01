@@ -1,0 +1,17 @@
+O NestJS basicamente é muito orientado a:
+    Decorators e Orientação a Objeto
+
+CLI do NEST é bem poderosa:
+    use na linha de comando para saber vários poderes possíveis com a CLI do NestJS
+        nest generate 
+
+    Criamos então os modulos para desacoplar os códigos:
+        nest generate module database
+        nest generate module http
+    
+    Para authorization no APP criar um service:
+        nest generate guard authorization --no-spec
+    Para teste de rotas    
+        nest generate controller test
+    Para inicialização e configuração do ORM Prisma
+        nest generate service prisma

@@ -1,0 +1,18 @@
+Backend Creates em NEST JS
+    nest new purchases
+    nest new classroom
+
+    Instalar o Prisma ORM
+        npm i prisma -D
+        npx prisma init
+        npm i @prisma/client
+
+
+Frontend Create em NextJS
+    npx create-next-app@latest
+
+    Instalando Typescript
+        yarn add typescript @types/reac @types/node -D
+
+
+Sistema de autenticação por CDN - Auth0
